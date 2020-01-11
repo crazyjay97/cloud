@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      profile: base
+      label: master
+      uri: http://localhost:9050
+server:
+  port: 9040

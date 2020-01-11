@@ -23,6 +23,7 @@
         <module>feignclient</module>
         <module>configserver</module>
         <module>gateway</module>
+        <module>configclient</module>
     </modules>
 
 
