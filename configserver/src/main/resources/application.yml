@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          url: https://github.com/crazyjay97/cloud.git
+          uri: https://github.com/crazyjay97/cloud.git
           searchPaths: config
           username: root
           password: root
