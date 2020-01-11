@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          url: https://github.com/crazyjay97/cloud.git
+          searchPaths: config
+          username: root
+          password: root
+server:
+  port: 9050

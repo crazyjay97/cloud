@@ -1,4 +1,4 @@
-package com.github.creazyjay97.client;
+package com.github.crazyjay97.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

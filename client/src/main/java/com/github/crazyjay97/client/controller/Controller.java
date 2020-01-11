@@ -1,4 +1,4 @@
-package com.github.creazyjay97.client.controller;
+package com.github.crazyjay97.client.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +17,7 @@ public class Controller {
     @RequestMapping("hello")
     @HystrixCommand(fallbackMethod = "errorFallback")
     public String hello() {
-        String body = restTemplate.getForEntity("http://API/api/hello", String.class).getBody();
+        String body = restTemplate.getForEntity("http://API/hello", String.class).getBody();
         return "hello" + body;
     }
 

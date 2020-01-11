@@ -1,12 +1,11 @@
 package com.github.crazyjay97.api.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+        import org.springframework.web.bind.annotation.RequestMapping;
+        import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
+        import java.util.Random;
+        import java.util.concurrent.TimeUnit;
 
-@RequestMapping("api")
 @RestController
 public class Controller {
 
