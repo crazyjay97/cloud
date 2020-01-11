@@ -22,6 +22,7 @@
         <module>client</module>
         <module>feignclient</module>
         <module>configserver</module>
+        <module>gateway</module>
     </modules>
 
 
